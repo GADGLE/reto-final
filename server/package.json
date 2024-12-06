@@ -1,0 +1,23 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@apollo/server": "^4.11.2",
+		"@graphql-tools/schema": "^10.0.10",
+		"body-parser": "^1.20.3",
+		"cors": "^2.8.5",
+		"express": "^4.21.1",
+		"express-graphql": "^0.12.0",
+		"express4": "link:@apollo/server/express4",
+		"graphql": "^16.9.0",
+		"graphql-subscriptions": "^3.0.0",
+		"graphql-ws": "^5.16.0",
+		"ws": "^8.18.0"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
+}
